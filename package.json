@@ -1,0 +1,30 @@
+{
+  "name": "Submit",
+  "version": "1.0.0",
+  "description": "Turn Any Form into JSON",
+  "main": "src/Index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "extend": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shavyg2/Submit"
+  },
+  "keywords": [
+    "Form",
+    "JSON"
+  ],
+  "author": "Shavauhn Gabay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shavyg2/Submit/issues"
+  },
+  "homepage": "https://github.com/shavyg2/Submit"
+}
