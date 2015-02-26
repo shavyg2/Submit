@@ -1,6 +1,6 @@
 # Submit
 
-common Json is supported as well.
+common Js is supported as well.
 
 This will return a JSON Object from a form
         
