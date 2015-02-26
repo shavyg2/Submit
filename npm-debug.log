@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Shavauhn\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\Shavauhn\\AppData\\Roaming\\npm-cache\\submit\\1.0.0\\package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\Shavauhn\AppData\Roaming\npm-cache\submit\1.0.0\package.tgz
+13 verbose folder .
+14 info prepublish submit@1.0.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\Shavauhn\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile e0e03312-m-cache-submit-1-0-0-package-tgz tar://C:\Users\Shavauhn\AppData\Roaming\npm-cache\submit\1.0.0\package.tgz
+18 verbose lock tar://C:\Users\Shavauhn\AppData\Roaming\npm-cache\submit\1.0.0\package.tgz C:\Users\Shavauhn\AppData\Roaming\npm-cache\e0e03312-m-cache-submit-1-0-0-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile e0e03312-m-cache-submit-1-0-0-package-tgz tar://C:\Users\Shavauhn\AppData\Roaming\npm-cache\submit\1.0.0\package.tgz
+22 silly lockFile e0e03312-m-cache-submit-1-0-0-package-tgz tar://C:\Users\Shavauhn\AppData\Roaming\npm-cache\submit\1.0.0\package.tgz
+23 silly lockFile 26e4bf5d-g-npm-cache-submit-1-0-0-package C:\Users\Shavauhn\AppData\Roaming\npm-cache\submit\1.0.0\package
+24 verbose lock C:\Users\Shavauhn\AppData\Roaming\npm-cache\submit\1.0.0\package C:\Users\Shavauhn\AppData\Roaming\npm-cache\26e4bf5d-g-npm-cache-submit-1-0-0-package.lock
+25 silly lockFile 26e4bf5d-g-npm-cache-submit-1-0-0-package C:\Users\Shavauhn\AppData\Roaming\npm-cache\submit\1.0.0\package
+26 silly lockFile 26e4bf5d-g-npm-cache-submit-1-0-0-package C:\Users\Shavauhn\AppData\Roaming\npm-cache\submit\1.0.0\package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'submit',
+29 silly publish   version: '1.0.0',
+29 silly publish   description: 'Turn Any Form into JSON',
+29 silly publish   main: 'src/Index.js',
+29 silly publish   directories: { test: 'test' },
+29 silly publish   dependencies: { extend: '^2.0.0' },
+29 silly publish   devDependencies: { gulp: '^3.8.11', 'gulp-uglify': '^1.1.0' },
+29 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+29 silly publish   repository: { type: 'git', url: 'https://github.com/shavyg2/Submit' },
+29 silly publish   keywords: [ 'Form', 'JSON' ],
+29 silly publish   author: { name: 'Shavauhn Gabay' },
+29 silly publish   license: 'MIT',
+29 silly publish   bugs: { url: 'https://github.com/shavyg2/Submit/issues' },
+29 silly publish   homepage: 'https://github.com/shavyg2/Submit',
+29 silly publish   readme: '# Submit\r\n\r\ncommon Js is supported as well.\r\n\r\nThis will return a JSON Object from a form\r\n        \r\n        window.Submit.Parse(form);\r\n\r\n\r\n        name="person[name][first]" value="Man"\r\n\r\n        //{person:{name:{first:"Man"}}}\r\n        \r\nArrays are merged\r\n\r\nObject and Arrays are not Merged\r\nWhich ever comes first takes over. This should not happen however if you write you HTML correctly.\r\n\r\n      \r\n      \r\n      \r\n\r\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: '88842bb88fb98e86ae2c61d0c076f8cab5f366c4',
+29 silly publish   _id: 'submit@1.0.0',
+29 silly publish   _shasum: '52a45ad499dc5980e777348201afdbc77c36b4e7',
+29 silly publish   _from: '.' }
+30 verbose request where is /submit
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 4350ef0abbda9210
+33 verbose url raw /submit
+34 verbose url resolving [ 'https://registry.npmjs.org/', './submit' ]
+35 verbose url resolved https://registry.npmjs.org/submit
+36 verbose request where is https://registry.npmjs.org/submit
+37 info trying registry request attempt 1 at 11:05:11
+38 http PUT https://registry.npmjs.org/submit
+39 http 403 https://registry.npmjs.org/submit
+40 verbose headers { date: 'Thu, 26 Feb 2015 16:05:16 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '4190',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'x-served-by': 'cache-dfw1832-DFW',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1424966715.960781,VS0,VE225',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 error publish Failed PUT 403
+42 error Error: forbidden cannot modify pre-existing version: 1.0.0
+42 error old={"name":"submit","version":"1.0.0","description":"form upload and progress api","keywords":[],"dependencies":{"promise":"~3.2.0"},"devDependencies":{"mocha":"*"},"scripts":{"test":"mocha -R spec"},"repository":{"type":"git","url":"https://github.com/ForbesLindesay/submit.git"},"author":{"name":"ForbesLindesay"},"license":"MIT","readme":"# submit\u000d\u000a\u000d\u000aform upload and progress api\u000d\u000a\u000d\u000a[![Build Status](https://travis-ci.org/ForbesLindesay/submit.png?branch=master)](https://travis-ci.org/ForbesLindesay/submit)\u000d\u000a[![Dependency Status](https://gemnasium.com/ForbesLindesay/submit.png)](https://gemnasium.com/ForbesLindesay/submit)\u000d\u000a[![NPM version](https://badge.fury.io/js/submit.png)](http://badge.fury.io/js/submit)\u000d\u000a\u000d\u000a## Installation\u000d\u000a\u000d\u000a    npm install submit\u000d\u000a\u000d\u000a## Usage: `submit(form).to(path)`\u000d\u000a\u000d\u000aSubmit the form `form` to the path `path`.\u000d\u000a\u000d\u000aThe result is a [Promises/A+](http://promises-aplus.github.io/promises-spec/) promise with the addition of a small subset of the event emitter API that only supports `progress` events which can be handled by calling `.on('progress', (e) => ...)`\u000d\u000a\u000d\u000a```js\u000d\u000avar submit = require('submit');\u000d\u000asubmit(form).to('/upload')\u000d\u000a  .on('progress', function (e) {\u000d\u000a    console.log(e.percent + '%');\u000d\u000a  })\u000d\u000a  .then(function (res) {\u000d\u000a    console.log('complete')\u000d\u000a  }, function (err) {\u000d\u000a    console.log('error')\u000d\u000a  })\u000d\u000a  .done();\u000d\u000a}\u000d\u000a```\u000d\u000a\u000d\u000a## License\u000d\u000a\u000d\u000a  MIT","readmeFilename":"Readme.md","_id":"submit@1.0.0","dist":{"shasum":"1c94dfa2f085327a18648647dae70bc4d5ad2a5a","tarball":"http://registry.npmjs.org/submit/-/submit-1.0.0.tgz"},"_from":".","_npmVersion":"1.2.10","_npmUser":{"name":"forbeslindesay","email":"forbes@lindesay.co.uk"},"maintainers":[{"name":"forbeslindesay","email":"forbes@lindesay.co.uk"}]}
+42 error new={"name":"submit","version":"1.0.0","description":"Turn Any Form into JSON","main":"src/Index.js","directories":{"test":"test"},"dependencies":{"extend":"^2.0.0"},"devDependencies":{"gulp":"^3.8.11","gulp-uglify":"^1.1.0"},"scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/shavyg2/Submit"},"keywords":["Form","JSON"],"author":{"name":"Shavauhn Gabay"},"license":"MIT","bugs":{"url":"https://github.com/shavyg2/Submit/issues"},"homepage":"https://github.com/shavyg2/Submit","readme":"# Submit\u000d\u000a\u000d\u000acommon Js is supported as well.\u000d\u000a\u000d\u000aThis will return a JSON Object from a form\u000d\u000a        \u000d\u000a        window.Submit.Parse(form);\u000d\u000a\u000d\u000a\u000d\u000a        name=\"person[name][first]\" value=\"Man\"\u000d\u000a\u000d\u000a        //{person:{name:{first:\"Man\"}}}\u000d\u000a        \u000d\u000aArrays are merged\u000d\u000a\u000d\u000aObject and Arrays are not Merged\u000d\u000aWhich ever comes first takes over. This should not happen however if you write you HTML correctly.\u000d\u000a\u000d\u000a      \u000d\u000a      \u000d\u000a      \u000d\u000a\u000d\u000a","readmeFilename":"README.md","gitHead":"88842bb88fb98e86ae2c61d0c076f8cab5f366c4","_id":"submit@1.0.0","_shasum":"52a45ad499dc5980e777348201afdbc77c36b4e7","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"shavyg2","email":"shavyg2@gmail.com"},"maintainers":[{"name":"shavyg2","email":"shavyg2@gmail.com"}],"dist":{"shasum":"52a45ad499dc5980e777348201afdbc77c36b4e7","tarball":"http://registry.npmjs.org/submit/-/submit-1.0.0.tgz"}}: submit
+42 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:308:14)
+42 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:246:65)
+42 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:236:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1142:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1096:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:943:16
+42 error     at process._tickCallback (node.js:419:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Windows_NT 6.2.9200
+45 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error cwd C:\Users\Shavauhn\Documents\Submit
+47 error node -v v0.10.32
+48 error npm -v 1.4.28
+49 verbose exit [ 1, true ]
