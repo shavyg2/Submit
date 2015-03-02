@@ -143,7 +143,7 @@
 
         if (name[name.length - 1] === ".") {
             isArray = true;
-            name = name.substr(0, name.length - 2);
+            name = name.substr(0, name.length - 1);
         }
         var split = name.split(".");
         var currentObj = obj;
