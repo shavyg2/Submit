@@ -5,10 +5,14 @@ var Submit = require("../src");
 
 
 var name= "person[name][first]";
+var name2= "person[family][children][]";
 exports.Conversion=function(test){
     var result = Submit.NameToDotNotation(name);
 
     test.equals("person.name.first",result,result);
+
+    result = Submit.NameToDotNotation(name2);
+    test.equals("person.family.children.",result,result);
     test.done();
 }
 
