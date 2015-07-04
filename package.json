@@ -1,8 +1,8 @@
 {
-  "name": "formsubmit",
+  "name": "form-submit",
   "version": "1.0.1",
   "description": "Turn Any Form into JSON",
-  "main": "build/Index.js",
+  "main": "src/index.js",
   "directories": {
     "test": "test"
   },
