@@ -1,5 +1,5 @@
 {
-  "name": "form-submit",
+  "name": "formsubmit",
   "version": "1.0.1",
   "description": "Turn Any Form into JSON",
   "main": "build/Index.js",
